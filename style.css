@@ -1,0 +1,229 @@
+*{padding: 0px;
+    margin: 0px;
+    
+    }
+.back
+{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body{
+    background-color: #eaeaea;
+    font-family: 'Montserrat', sans-serif;
+}
+.wc{
+    max-width: 1376px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.pw{
+    margin-top: 24px;
+    padding: 0 32px;
+    position: relative;
+    
+}
+.sc1{ 
+    padding: 0 8px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.swr{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+.ph{
+    align-items: center;
+    width: 89px;
+    height: 100px; 
+}
+.wr{
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: absolute;
+}
+.bb{
+    background-image: url(ph.png);
+    background-position: center;
+    color: #fff;
+    padding-top: 214px;
+    padding-bottom: 285px;
+}
+.qqq{
+    text-decoration:none;
+    color: rgb(54, 51, 51);
+}
+.title{
+    color: rgba(236, 235, 231, 0.822);
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    text-shadow: 1px 1px 1px #000;
+}
+.desc{
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 570px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.bt{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    padding: 12px 0;
+    max-width: 188px;
+    text-align: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 36px;
+    padding-bottom: 40px;
+}
+
+.search{
+    padding: 16px 0;
+    flex-grow: 1;
+    margin-right: 16px;
+}
+.cmb{
+    margin: 0;
+    padding: 0;
+}
+.smenu{
+    display: flex;
+    width: 100%;
+}
+.searchinput{
+    font-family: Lato;
+    width: 200px;
+    height: 10px;
+    background: #f1f7fe;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 0 10px 16px;
+}
+
+.buybutton{
+    font-size: 15px;
+}
+.buybutton a{
+    border: solid;
+    border-radius: 50px;
+    text-decoration: none;
+ 
+    
+    padding: 50px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+
+    
+    color: rgb(197, 189, 197);
+}
+.buybutton a:hover{
+    border-radius: 50px 50px 50px 50px;
+    background-color: rgb(170, 163, 163);
+}
+.go{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.ic{
+    background-color: #fff;
+    border-radius: 12px;
+}
+.icc{
+    height: 100%;
+    padding: 16px 16px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.iimage{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-height: 274.67px;
+    padding: 16px 0;
+}
+.vlim{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.label{
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.info{
+    padding: 0;
+}
+.ititle{
+    text-decoration: none;
+    color: #152242;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.itemspec{
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.spec{
+    padding-bottom: 4px;
+    font-size: 14px;
+    line-height: 20px;
+}
+.specname{
+    color: #8f95a5;
+}
+.itembuy{
+    flex-direction: column;
+    padding: 10px 0 0;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.iprice{
+    flex-shrink: 1;
+    width: 100%!important;
+    padding-bottom: 4px;
+}
+.price{
+    margin-bottom: 4px;
+    
+}
+
+@media only screen and(max-width:643px){
+    .l{width:40%}
+    .bt{font-size: 30%;display: inline-block;}
+    .buybutton{font-size: 30%;display: inline-block;}
+    .desc{font-size: 30%;}
+}
